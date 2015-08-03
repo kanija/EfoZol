@@ -14,7 +14,6 @@ As a second goal, and after collecting the data over time, we wish to publish so
  - Restore DB (found in backend/sql)
  - Run 
 ```
-
 cd frontend 
 bower install
 cd backend`
