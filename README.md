@@ -76,11 +76,11 @@ Frontend stuff is at `./frontend`
 - Knowledge base (0 - none, 1 - poor, 2 - medium, 3 - good)
 - Want to know (4 - nope, 5 - medium, 6 - excited)
 
-|Name        | Github             | JavaScript | Python | R | SQL | NoSql | Angular | Node | Docker | 
-|------------|--------------------|------------|--------|---|-----|-------|---------|------|--------|
-|Elad Katz   | github.com/eladrk  | 3          |        |   | 3   | 3     | 3       | 3    | 2      |
-|Michael B   | github.com/mberaz  | 3          |        |   |     |       |         |      |        |
-|[your name] |                    |            |        |   |     |       |         |      |        |
+|Name        | Github     | JavaScript | Python | R | SQL | NoSql | Angular | Node | Docker | 
+|------------|------------|------------|--------|---|-----|-------|---------|------|--------|
+|Elad Katz   | eladrk     | 3          |        |   | 3   | 3     | 3       | 3    | 2      |
+|Michael B   | mberaz     | 3          |        |   |     |       |         |      |        |
+|[your name] |            |            |        |   |     |       |         |      |        |
 
 ## Links
 1. Trello
