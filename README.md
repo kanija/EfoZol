@@ -16,7 +16,7 @@ As a second goal, and after collecting the data over time, we wish to publish so
  - Run `npm install`
  - Run `node index.js` - starts the server
  
-The code is now running the server at `http://localhost:3000`
+The code is now running the server at `http://localhost:5000`
 Frontend stuff is at `./frontend`
 
 ## Technology Stack
