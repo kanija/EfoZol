@@ -42,13 +42,14 @@ Frontend stuff is at `./frontend`
  1. Web (Javascript, Angular)
   1. Boaz
   2. Nirit
+  3. Michael B
  2. Android
   1. Nitzan
  3. iOS
 2. Web Server 
  1. API (NodeJs) 
   1. Daniel C
-  2. Michael
+  2. Michael B
   3. Nirit 
  2. db (PostgreSql)
   1. Xenia
