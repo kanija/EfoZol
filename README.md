@@ -2,22 +2,87 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/EladRK/EfoZol?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-# Open Grocery - Making Retailers Prices Accessible
+# opma - Open Market - Making Retailer Prices Open
 Open Grocery will make retailers produce prices accessible and available to the public. 
 The project’s first goal is to create a tool that allows each user to compare the cost of their personal shopping bag with all big retailers, including the ability to filter based on geo-location. This way, we can all easily know where to do our shopping.
 
 As a second goal, and after collecting the data over time, we wish to publish some analysis of the Israeli market. For instance, we believe we could supply information on topics such as increase or decrease in the price of produce for the manufacturer, identifying food cartels and price fixing, analyzing the food cost with accordance with living area, predicting price changes for certain holidays (Passover, Shavuot, Independence Day etc.) and agricultural events.
 
-Our work will include the following:
-Downloading the XML files of each major retailer.
-Reading the information through Python and parsing each file into a unified format.
-Uploading the information to a DB
-Identifying identical products with different retailers.
-Creating an application (web, Android and iOS) that has access to the info on the DB, through which users can create and compare a shopping bag and locate the nearest store. 
+## Web Server instalation 
 
-This repository holds the entire Open Grocerty (codenamed EfoZol) project. It includes the following parts:
+ - Install PostgreSql
+ - Restore DB (found in backend/sql)
+ - Run `cd backend`
+ - Run `npm install`
+ - Run `node index.js` - starts the server
+ 
+The code is now running the server at `http://localhost:3000`
+Frontend stuff is at `./frontend`
+
+## Technology Stack
+1. AngularJS (1.4)
+2. NodeJS
+3. ExpressJS
+4. PostgreSql
 
 
+## Main API
+1. Pull API
+ 1. add store (auth)
+ 2. add branch
+ 3. add product
+ 4. add price (product/branch/time)
+2. Get API
+ 1. get products (by name)
+ 2. get branches (by location)
+ 3. get prices (branches * products, ordered by price)
+		
+## Teams(R&D) 
+1. Client
+ 1. Web (Javascript, Angular)
+  1. Boaz
+  2. Nirit
+ 2. Android
+  1. Nitzan
+ 3. iOS
+2. Web Server 
+ 1. API (NodeJs) 
+  1. Daniel C
+  2. Michael
+  3. Nirit 
+ 2. db (PostgreSql)
+  1. Xenia
+3. DevOps 
+ 1. Docker
+  2. Boaz
+ 1. Cloud
+ 2. Testing
+4. Parsers
+5. Big Data
+6. UI/UX
+ 1. Rotem A.
+7. Documentation
+ 1. Readme.MD 
+  1. [Elad K](https://github.com/eladrk)
+ 
+## Teams(Business)	
+1. PR
+2. Law
+3. Finance
+4. Marketing
+	
+
+## Links
+1. Trello
+2. [Efo-ZolHasadna Github page](https://github.com/Eifo-Zol-Hasadna)
+3. Fields of knowlege and/or interest.
+4. [Documents](https://github.com/Eifo-Zol-Hasadna/docs)
+ 1. Teams
+ 2. Presentation
+5. [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/EladRK/EfoZol?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+6. Stackoverflow links
+
+## Architecture
 1. Scraping Server
  1. Scrapes the XMLs from all the different servers.
  2. Nomalize data
@@ -27,74 +92,7 @@ This repository holds the entire Open Grocerty (codenamed EfoZol) project. It in
  2. Insert Data to the PostgreSql database
  3. Expose normalized API to explore all data in the server (allowing others to plug into our system, and to continue our work)
  4. Expose a subset of the full API to the web, Android and iOS clients.
- 
-
-## Web Server instalation 
-
- - Install PostgreSql 
- - Restore DB (found in app_web_server/sql)
- - Run `cd app_web_server`
- - Run `npm install`
- - Run `node bootstrap.js` (fills up data in Mongo)
- - Run `npm start` - starts the server
-
-The code is now running the server at `http://localhost:3000`
-Frontend stuff is at `./public`
-
-The project runs AngularJS on the MEAN stack + PostgreSql. 
 
 
-1. API
-	I. Pull API
-		a. add store (auth)
-		b. add branch
-		c. add product
-		d. add price (product/branch/time)
-	II. Get API
-		a. get products (by name)
-		b. get branches (by location)
-		c. get prices (branches * products, ordered by price)
-		
-2. Teams(R&D) 
-	I. Client
-		a. Web (Javascript, Angular)
-			A. Boaz
-			B. 
-		b. Android
-			A. Nitzan
-		c. iOS
-	II. Web Server 
-		a. API (NodeJs) 
-			A. Daniel
-		b. db (PostgreSql)
-			A. Xenia
-	III. DevOps 
-		a. Docker
-			A. Boaz
-		b. Cloud
-		c. Testing
-	IV. Parsers
-	V. Big Data
-	VI. UI/UX
-		a. Rotem A.
-	VII. Documentation
-3. Teams(Business)	
-	I. PR
-	II. Law
-	III. Finance
-	IV. Marketing
-	
+## FAQ
 
-3. Presentation
-4. Architecture
-5. Open API and implications.
-6. Have fun.
-
-
-
-
-1. Code repository..
-2. setting up teams.
-3. fields of knowledge/interest.
-4. trello
-5. 
