@@ -12,9 +12,16 @@ As a second goal, and after collecting the data over time, we wish to publish so
 
  - Install PostgreSql
  - Restore DB (found in backend/sql)
- - Run `cd backend`
- - Run `npm install`
- - Run `node index.js` - starts the server
+ - Run 
+```
+
+cd frontend 
+bower install
+cd backend`
+npm install`
+node index.js
+
+``` 
  
 The code is now running the server at `http://localhost:5000`
 Frontend stuff is at `./frontend`
