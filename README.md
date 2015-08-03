@@ -28,43 +28,43 @@ Frontend stuff is at `./frontend`
 
 ## Main API
 1. Pull API
- 1. add store (auth)
- 2. add branch
- 3. add product
- 4. add price (product/branch/time)
+  1. add store (auth)
+  2. add branch
+  3. add product
+  4. add price (product/branch/time)
 2. Get API
- 1. get products (by name)
- 2. get branches (by location)
- 3. get prices (branches * products, ordered by price)
+  1. get products (by name)
+  2. get branches (by location)
+  3. get prices (branches * products, ordered by price)
 		
 ## Teams(R&D) 
 1. Client
- 1. Web (Javascript, Angular)
-  1. Boaz
-  2. Nirit
-  3. Michael B
- 2. Android
-  1. Nitzan
- 3. iOS
+  1. Web (Javascript, Angular)
+    1. Boaz
+    2. Nirit
+    3. Michael B
+  2. Android
+   1. Nitzan
+  3. iOS
 2. Web Server 
- 1. API (NodeJs) 
-  1. Daniel C
-  2. Michael B
-  3. Nirit 
- 2. db (PostgreSql)
-  1. Xenia
+  1. API (NodeJs) 
+    1. Daniel C
+    2. Michael B
+    3. Nirit 
+  2. db (PostgreSql)
+    1. Xenia
 3. DevOps 
- 1. Docker
-  2. Boaz
- 1. Cloud
- 2. Testing
+  1. Docker
+    2. Boaz
+  1. Cloud
+  2. Testing
 4. Parsers
 5. Big Data
 6. UI/UX
- 1. Rotem A.
+  1. Rotem A.
 7. Documentation
- 1. Readme.MD 
-  1. [Elad K](https://github.com/eladrk)
+  1. Readme.MD 
+    1. [Elad K](https://github.com/eladrk)
  
 ## Teams(Business)	
 1. PR
@@ -78,21 +78,21 @@ Frontend stuff is at `./frontend`
 2. [Efo-ZolHasadna Github page](https://github.com/Eifo-Zol-Hasadna)
 3. Fields of knowlege and/or interest.
 4. [Documents](https://github.com/Eifo-Zol-Hasadna/docs)
- 1. Teams
- 2. Presentation
+  1. Teams
+  2. Presentation
 5. [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/EladRK/EfoZol?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 6. Stackoverflow links
 
 ## Architecture
 1. Scraping Server
- 1. Scrapes the XMLs from all the different servers.
- 2. Nomalize data
- 3. Insert data to WebServer through API.
+  1. Scrapes the XMLs from all the different servers.
+  2. Nomalize data
+  3. Insert data to WebServer through API.
 2. App Web Server
- 1. Exposes API to insert Raw Data. (in the future it will allow small retailers to insert their data as well)
- 2. Insert Data to the PostgreSql database
- 3. Expose normalized API to explore all data in the server (allowing others to plug into our system, and to continue our work)
- 4. Expose a subset of the full API to the web, Android and iOS clients.
+  1. Exposes API to insert Raw Data. (in the future it will allow small retailers to insert their data as well)
+  2. Insert Data to the PostgreSql database
+  3. Expose normalized API to explore all data in the server (allowing others to plug into our system, and to continue our work)
+  4. Expose a subset of the full API to the web, Android and iOS clients.
 
 
 ## FAQ
