@@ -71,6 +71,7 @@ Frontend stuff is at `./frontend`
 7. Documentation
   1. Readme.MD 
     1. [Elad K](https://github.com/eladrk)
+    2. [Ronen R](https://github.com/kanija)
  
 ## Teams(Business)	
 1. PR
@@ -82,11 +83,12 @@ Frontend stuff is at `./frontend`
 - Knowledge base (0 - none, 1 - poor, 2 - medium, 3 - good)
 - Want to know (a - nope, b - medium, c - excited)
 
-|Name        | Github     | JavaScript | Python | R | SQL | NoSql | Angular | Node | Docker | 
-|------------|------------|------------|--------|---|-----|-------|---------|------|--------|
-|Elad Katz   | eladrk     | 3          | a      | b | 3   | 3     | 3       | 3    | 2 c    |
-|Michael B   | mberaz     | 3          |        |   |     |       |         |      |        |
-|[your name] |            |            |        |   |     |       |         |      |        |
+|Name           | Github     | JS  | Python | R | SQL | NoSql | Angular | Node | Docker | 
+|---------------|------------|-----|--------|---|-----|-------|---------|------|--------|
+|Elad Katz      | eladrk     | 3   | a      | b | 3   | 3     | 3       | 3    | 2 c    |
+|Michael B      | mberaz     | 3   |        |   |     |       |         |      |        |
+|Ronen Rothfarb | kanija     | 1 c | 0      | 0 | 1 b | 0     | 0 b     | 0 c  | 0 b    |
+|[your name]    |            |     |        |   |     |       |         |      |        |
 
 ## Links
 1. Trello
