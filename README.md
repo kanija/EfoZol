@@ -109,6 +109,7 @@ Frontend stuff is at `./frontend`
   3. Expose normalized API to explore all data in the server (allowing others to plug into our system, and to continue our work)
   4. Expose a subset of the full API to the web, Android and iOS clients.
 
+```
                                 /-- Data Magic (Machine Learning etc.)
                                /
 XML > Parsers > RawData JSON --                                                  /-- Web Client
@@ -116,6 +117,8 @@ XML > Parsers > RawData JSON --                                                 
                                 \-- Normalizers --> API --> WebServer --> API ------ iOS Client
                                                                                 \
                                                                                  \-- Android Client 
+```
+
 
 ## FAQ
 
