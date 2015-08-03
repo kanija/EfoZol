@@ -74,11 +74,11 @@ Frontend stuff is at `./frontend`
 	
 ## Knowledge base
 - Knowledge base (0 - none, 1 - poor, 2 - medium, 3 - good)
-- Want to know (4 - nope, 5 - medium, 6 - excited)
+- Want to know (a - nope, b - medium, c - excited)
 
 |Name        | Github     | JavaScript | Python | R | SQL | NoSql | Angular | Node | Docker | 
 |------------|------------|------------|--------|---|-----|-------|---------|------|--------|
-|Elad Katz   | eladrk     | 3          |        |   | 3   | 3     | 3       | 3    | 2      |
+|Elad Katz   | eladrk     | 3          | a      | b | 3   | 3     | 3       | 3    | 2 c    |
 |Michael B   | mberaz     | 3          |        |   |     |       |         |      |        |
 |[your name] |            |            |        |   |     |       |         |      |        |
 
